@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Game from './Game';
 
 class App extends Component {
   render() {
@@ -14,6 +15,9 @@ class App extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
           <small>Finally got this running after an issue with npm install</small>
+          <div className="game">
+              <Game />
+          </div>
       </div>
     );
   }
